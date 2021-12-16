@@ -6,6 +6,7 @@
     --light-grayish-blue: hsl(240, 75%, 98%); 
     --light-gray: hsl(0, 0%, 75%);
     --white: #fff;
+    --form-text: rgba(246, 246, 254, 0.1);
 
     --ff-raleway: 'Raleway', sans-serif;
     --ff-open: 'Open Sans', sans-serif;
@@ -115,17 +116,16 @@ body {
     margin-left: 5rem;
 }
 
-.email-form {
+.email-form-1 {
     font-family: var(--ff-open);
     font-size: 1rem;
-    color: var(--light-gray);
-    opacity: 0.4;
+    color: var(--form-text);
     border-radius: 3px;
     border: 1px solid var(--very-dark-blue);
     padding: 0.7rem 7rem 0.7rem 1rem;
 }
 
-.btn {
+.btn-1 {
     font-family: var(--ff-open);
     font-size: 1rem;
     border-radius: 3px;
@@ -218,4 +218,55 @@ body {
 .testimonial--info {
     font-family: var(--ff-open);
     font-size: 0.7rem;
+}
+
+/* Access section */
+.access-section {
+    background-color: var(--desaturated-blue);
+    margin-top: 9rem;
+}
+
+.access-section--title {
+    color: var(--light-grayish-blue);
+    font-size: 2rem;
+    margin: 7rem 0 1.5rem 5rem;
+}
+
+.access-section--text {
+    color: var(--light-grayish-blue);
+    font-family: var(--ff-open);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    width: 500px;
+}
+
+.access-section__right {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+}
+
+.email-form-2 {
+    font-family: var(--ff-open);
+    font-size: 1rem;
+    color: var(--form-text);
+    background-color: var(--light-grayish-blue);
+    border-radius: 3px;
+    border: none;
+    padding: 0.7rem 22rem 0.7rem 1rem;
+}
+
+.btn-2 {
+    font-family: var(--ff-open);
+    font-size: 1rem;
+    border-radius: 3px;
+    width: 210px;
+    color: var(--light-grayish-blue);
+    background-color: var(--bright-blue);
+    border: none;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    margin-top: 1rem;
 }
