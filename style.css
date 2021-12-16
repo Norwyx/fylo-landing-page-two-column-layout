@@ -12,6 +12,8 @@
     --ff-open: 'Open Sans', sans-serif;
 
     --card-shadow: 0px 0px 19px -6px rgba(0,0,0,0.18);
+    --btn-shadow: 0px 5px 18px -5px rgba(0,0,0,0.53);
+    --form-shadow: 0px 5px 18px -5px rgba(0,0,0,0.30);
 }
 
 html {
@@ -123,6 +125,7 @@ body {
     border-radius: 3px;
     border: 1px solid var(--very-dark-blue);
     padding: 0.7rem 7rem 0.7rem 1rem;
+    box-shadow: var(--form-shadow);
 }
 
 .btn-1 {
@@ -134,6 +137,7 @@ body {
     border: none;
     padding: 0.7rem 3.5rem 0.7rem 3.5rem;
     margin-left: 0.9rem;
+    box-shadow: var(--btn-shadow);
 }
 
 /* Testimonial section */
@@ -257,6 +261,7 @@ body {
     border-radius: 3px;
     border: none;
     padding: 0.7rem 22rem 0.7rem 1rem;
+    box-shadow: var(--form-shadow);
 }
 
 .btn-2 {
@@ -269,6 +274,7 @@ body {
     border: none;
     padding: 0.7rem 1rem 0.7rem 1rem;
     margin-top: 1rem;
+    box-shadow: var(--btn-shadow);
 }
 
 /* Footer section */
