@@ -54,6 +54,12 @@ body {
     margin-left: 5rem;
 }
 
+.testimonial-text {
+    font-family: var(--ff-open);
+    font-size: 1rem;
+    color: var(--very-dark-blue);
+}
+
 /* Navbar */
 .nav {
     width: 100%;
@@ -124,4 +130,43 @@ body {
     border: none;
     padding: 0.7rem 3.5rem 0.7rem 3.5rem;
     margin-left: 0.9rem;
+}
+
+/* Testimonial section */
+.testimonial-section {
+    margin-top: 20rem;
+}
+
+.second--title {
+    margin-bottom: 2rem;
+}
+
+.left--text-1, .left--text-2 {
+    margin: 0 8rem 1rem 5rem;
+}
+
+.right--image-2 {
+    width: 600px;
+    height: auto;
+    margin-right: 5rem;
+}
+
+.text-3__div {
+    margin-left: 5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--moderate-cyan);
+    width: 171px;
+}
+
+.left--text-3 {
+    color: var(--moderate-cyan);
+    font-family: var(--ff-open);
+    font-size: 1rem;
+    margin-right: 0.3rem;
+}
+
+.arrow-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.15rem;
 }
