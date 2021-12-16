@@ -5,9 +5,12 @@
     --moderate-cyan: hsl(170, 45%, 43%); 
     --light-grayish-blue: hsl(240, 75%, 98%); 
     --light-gray: hsl(0, 0%, 75%);
+    --white: #fff;
 
     --ff-raleway: 'Raleway', sans-serif;
     --ff-open: 'Open Sans', sans-serif;
+
+    --card-shadow: 0px 0px 19px -6px rgba(0,0,0,0.18);
 }
 
 html {
@@ -35,6 +38,7 @@ body {
     background-color: var(--light-grayish-blue); 
     font-family: var(--ff-raleway);     
     font-size: 1.125rem;
+    background-color: var(--light-grayish-blue);
 }
 
 .flex {
@@ -169,4 +173,49 @@ body {
     width: 20px;
     height: 20px;
     margin-top: 0.15rem;
+}
+
+/* Testimonials card */
+.left--card {
+    background-color: var(--white);
+    box-shadow: var(--card-shadow);
+    width: 340px;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.card__icon {
+    width: 20px;
+    height: auto; 
+    margin-bottom: 0.5rem;
+}
+
+.card__text {
+    font-family: var(--ff-open);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.bottom--profile-pic {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.bottom__right {
+    margin-left: 0.8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonial--name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--very-dark-blue);    
+}
+
+.testimonial--info {
+    font-family: var(--ff-open);
+    font-size: 0.7rem;
 }
