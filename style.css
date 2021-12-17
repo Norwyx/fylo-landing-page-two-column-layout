@@ -6,7 +6,7 @@
     --light-grayish-blue: hsl(240, 75%, 98%); 
     --light-gray: hsl(0, 0%, 75%);
     --white: #fff;
-    --form-text: rgba(246, 246, 254, 0.1);
+    --hover-clr: rgba(89, 133, 253, 0.9);
 
     --ff-raleway: 'Raleway', sans-serif;
     --ff-open: 'Open Sans', sans-serif;
@@ -65,6 +65,15 @@ body {
     font-family: var(--ff-open);
     font-size: 1rem;
     color: var(--very-dark-blue);
+}
+
+.btn {
+    transition-duration: .4s;
+}
+
+.btn:hover {
+    background-color: var(--hover-clr);
+    cursor: pointer;
 }
 
 /* Navbar */
@@ -319,6 +328,13 @@ footer {
 
 .column-item {
     margin-bottom: 1rem;
+    transition-duration: 0.4s;
+}
+
+.column-item:hover {
+    color: var(--hover-clr);
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .social-media--links {
@@ -337,4 +353,10 @@ footer {
     width: 2rem;
     font-size: 1rem;
     text-decoration: none;
+    transition-duration: .4s;
+}
+
+.social-media--links a:hover {
+    color: var(--hover-clr);
+    border: 1px solid var(--hover-clr);
 }
