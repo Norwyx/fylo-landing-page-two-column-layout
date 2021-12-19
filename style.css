@@ -360,3 +360,82 @@ footer {
     color: var(--hover-clr);
     border: 1px solid var(--hover-clr);
 }
+
+/* Responsive */
+/* 1024px / 64rem*/
+@media (max-width: 64rem) {
+    .nav {
+        margin-bottom: 1rem;
+    }
+    
+    .right--image-1 {
+        width: 400px;
+        margin-top: 3rem;
+    } 
+    
+    .left--title {
+        font-size: 2.3rem;
+        line-height: 1.2;
+    }
+
+    .email-form-1 {
+        padding: 0.7rem 2rem 0.7rem 1rem;
+    }
+
+    .btn-1 {
+        padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .testimonial-section {
+        margin-top: 14rem;
+    }
+
+    .second--title {
+        margin-bottom: 1rem;
+    }
+
+    .left--text-1, .left--text-2 {
+        margin: 0 3rem 1rem 5rem;
+    }
+
+    .right--image-2 {
+        width: 400px;
+        margin-left: 1rem;
+    }
+
+    .left--card {
+        margin-top: 2rem;
+    }
+
+    .access-section--title {
+        margin: 7rem 0 1rem 5rem;
+    }
+
+    .access-section--text {
+        margin-left: 5rem;
+        margin-bottom: 5rem;
+        width: 400px;
+    }
+
+    .access-section__right {
+        margin-left: 7rem;
+    }
+
+    .email-form-2 {
+        padding: 0.7rem 8rem 0.7rem 1rem;
+    }
+
+    .btn-2 {
+        width: 180px;
+        padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    }
+
+    .footer-logo {
+        margin: 5rem 0 1rem 5rem;
+    }
+
+    .footer-info {
+        gap: 7.5rem;
+    }
+}
