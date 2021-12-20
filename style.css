@@ -37,6 +37,10 @@ textarea {
   line-height: inherit;
 }
 
+input::placeholder {
+    font-family: var(--ff-open);
+}
+
 body {
     background-color: var(--light-grayish-blue); 
     font-family: var(--ff-raleway);     
