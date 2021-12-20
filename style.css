@@ -366,6 +366,19 @@ footer {
 }
 
 /* Responsive */
+/* 1920px / 120rem */
+@media (min-width: 120rem) {
+    .access-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content {
+        margin-left: 20rem;
+    }
+}
+
 /* 1024px / 64rem*/
 @media (max-width: 64rem) {
     .nav {
