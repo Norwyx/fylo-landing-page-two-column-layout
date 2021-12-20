@@ -7,6 +7,7 @@
     --light-gray: hsl(0, 0%, 75%);
     --white: #fff;
     --hover-clr: rgba(89, 133, 253, 0.9);
+    --hover-clr-2: hsl(170, 81%, 60%);
 
     --ff-raleway: 'Raleway', sans-serif;
     --ff-open: 'Open Sans', sans-serif;
@@ -178,6 +179,12 @@ body {
     padding-bottom: 0.3rem;
     border-bottom: 1px solid var(--moderate-cyan);
     width: 171px;
+    transition-duration: .4s;
+}
+
+.text-3__div:hover {
+    cursor: pointer;
+    border-bottom: 1px solid var(--hover-clr-2);
 }
 
 .left--text-3 {
@@ -185,6 +192,11 @@ body {
     font-family: var(--ff-open);
     font-size: 1rem;
     margin-right: 0.3rem;
+    transition-duration: .4s;
+}
+
+.left--text-3:hover {
+    color: var(--hover-clr-2);
 }
 
 .arrow-icon {
