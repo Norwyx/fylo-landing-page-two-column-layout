@@ -555,3 +555,121 @@ footer {
         align-items: center;
     }
 }
+
+/* 425px / 26.5625rem */
+@media (max-width: 26.5625rem) {
+    .left--title {
+        font-size: 2rem;
+        margin-left: 0rem;
+    }
+    
+    .nav {
+        height: 80px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .nav__logo {
+        margin-left: 1.5rem;
+        width: 100px;
+    } 
+    
+    .nav__list {
+        gap: 1rem;
+        margin-right: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .welcome-section__left {
+        margin-top: 3rem;
+    }
+
+    .first-title {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .first--text {
+        font-size: 1rem;
+        margin: 1rem 3rem 0 3rem;
+    }
+
+    .right--image-1 {
+        width: 350px;
+        margin-left: 1rem;
+    }
+
+    .email-form-1 {
+        width: 80%;
+        margin-top: 0.8rem;
+    }
+    
+    .btn-1 {
+        width: 80%;
+        margin-left: 0rem;
+    }
+
+    .right--image-2 {
+        width: 350px;
+    }
+
+    .second--title {
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .left--text-1, .left--text-2 {
+        margin: 0 0 1rem 1.3rem;
+    }
+
+    .text-3__div {
+        margin-left: 8rem;
+    }
+
+    .left--card {
+        margin-left: 2.6rem;
+        margin-top: 3rem;
+    }
+
+    .access-section {
+        margin-top: 7rem;
+    }
+
+    .access-section--title {
+        font-size: 1.5rem;
+        margin: 4rem 0 1.5rem 0;
+    }
+
+    .access-section--text {
+        font-size: 1rem;
+        margin-left: 3.3rem;
+        width: 320px;
+    }
+
+    .access-section__right {
+        margin-left: 0rem;
+        margin-top: -3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email-form-2 {
+        padding: 0.7rem 2rem 0.7rem 1rem;
+        width: 80%;
+
+    }
+
+    .btn-2 {
+        width: 80%;
+    }
+
+    .footer-logo {
+        width: 230px;
+        height: auto;
+        margin: 6rem 0 1rem 2.5rem;
+    }
+
+    .column {
+        margin-left: 2.5rem;
+    }
+}
