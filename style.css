@@ -673,3 +673,19 @@ footer {
         margin-left: 2.5rem;
     }
 }
+
+/* 375px / 23.4375rem */
+@media (max-width: 23.4375rem) {
+    .text-3__div {
+        margin-left: 6rem;
+    }
+
+    .left--card {
+        margin-left: 1rem;
+    }
+
+    .access-section--text {
+        margin-left: 2.3rem;
+        width: 300px;
+    }
+}
